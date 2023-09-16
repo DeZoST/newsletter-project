@@ -28,9 +28,9 @@
   <body>
     <!-- Sign-up form start -->
     <main class="newslatter">
-      <div class="newslatter__card">
+      <div id="newslatter__card" class="newslatter__card">
         <div class="card__left">
-          <form id="newslatter__form" class="newslatter__form" action="success.html" method="POST">
+          <form id="newslatter__form" class="newslatter__form" action="#">
             <div class="newslatter__top">
               <h1 class="form__title">Stay updated!</h1>
 
@@ -333,6 +333,31 @@
         </div>
       </div>
       <!-- Sign-up form end -->
+
+      <!-- Success message start -->
+      <div id="success__message" class="success__message">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="64"
+          height="64"
+          viewBox="0 0 21 21"
+        >
+          <g fill="none">
+            <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+            <path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8" />
+          </g>
+        </svg>
+        <h2 class="success__title">Thanks for subscribing !</h2>
+        <p class="success__text">
+          A confirmation email has been sent to
+          <span class="success__email"></span>. Please open it and click the
+          button inside to confirm your subscription.
+        </p>
+        <button id="success__button" class="success__button success__rectangle">
+          Dismiss message
+        </button>
+      </div>
+      <!-- Success message end -->
     </main>
   </body>
 </html>
