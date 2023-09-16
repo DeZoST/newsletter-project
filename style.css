@@ -201,4 +201,5 @@ body {
 
 .success__email{
   font-weight: 700;
+  text-decoration: underline;
 }
