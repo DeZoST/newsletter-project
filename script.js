@@ -13,28 +13,23 @@ form.addEventListener("submit", (e) => {
     email.value == "" ||
     email.value == null
   ) {
+    e.preventDefault();
     emailError.setAttribute("style", "display: inline;");
     email.setAttribute(
       "style",
       "border: 1px solid var(--clr-tomato); color: var(--clr-tomato); background-color: var(--clr-tomato-light);"
     );
-    e.preventDefault();
   } else {
-
+    e.preventDefault();
     success__email.innerText = email.value;
-
     emailError.setAttribute("style", "display: none;");
-
     email.setAttribute("style", "border: 1px solid var(--clr-grey);");
-
     newslatterCard.setAttribute("style", "display: none;");
-
     successMessage.setAttribute("style", "display: flex;");
   }
 });
 
 success__button.addEventListener("click", () => {
   successMessage.setAttribute("style", "display: none;");
-
   newslatterCard.setAttribute("style", "display: flex;");
 });
