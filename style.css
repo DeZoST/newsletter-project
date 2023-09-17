@@ -75,12 +75,12 @@ body {
 
 .newslatter__card{
     background-color: var(--clr-white);
-    border-radius: var(--size-2xl);
+    border-radius: 1.5rem;
     width: 50%;
     height: 55%;
     display: flex;
     align-items: center;
-    padding: var(--size-3xl);
+    padding: 1.875rem;
 }
 
 .card__left{
@@ -106,13 +106,13 @@ body {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    gap: var(--size-base);
+    gap: 1rem;
 }
 
 .newslatter__top{
     display: flex;
     flex-direction: column;
-    gap: var(--size-xxs);
+    gap: 0.5rem;
 }
 
 .form__title{
@@ -135,7 +135,7 @@ body {
 
 .list__item span{
   position: relative;
-  left: var(--size-sm);
+  left: 0.875rem;
 }
 
 .newslatter__bottom{
@@ -143,7 +143,7 @@ body {
   flex-direction: column;
   height: 100%;
   width: 100%;
-  gap: var(--size-base);
+  gap: 1rem;
 }
 
 .input__text__container{
@@ -166,7 +166,7 @@ body {
 
 .form__rectangle, .success__rectangle{
   width: 100%;
-  padding: var(--size-base);
+  padding: 1rem;
   border-radius: 10px;
 }
 
@@ -188,7 +188,7 @@ body {
   justify-content: center;
   background-color: var(--clr-white);
   padding: 3rem;
-  border-radius: var(--size-2xl);
+  border-radius: 1.5rem;
   height: 50%;
   width: 25%;
   gap: 1.5rem;
